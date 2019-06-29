@@ -25,4 +25,4 @@ client.on("guildMemberAdd", member => {
 	**`)
 }).catch(console.error)
 })
-client.login("NTkzMjEwNzg2MTk3Nzk4OTEz.XRcXBA.S9gzxas09HU5uRwZ3eeM758sYRk");
+client.login(process.env.BOT_TOKEN);
